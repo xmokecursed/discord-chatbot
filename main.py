@@ -511,6 +511,14 @@ class YuiiBot:
         self.token = token
         self.hist_file = hist_file
         self.mem_file = mem_file
+        
+        ##################################
+        intents = discord.Intents.default() #remove this section if for selfbots
+        intents.message_content = True
+        intents.members = True
+        intents.presences = True
+        ###################################
+        
         self.client = discord.Client()
 
         self.groq = AsyncGroq(api_key=api_key)
