@@ -56,15 +56,15 @@ conv_window = 3600
 # override unprompted talking
 
 chan_boost = {
-    1523888504134959145: 1,
-    1475857463205953712: .5,
-    1371873660406726730: 1,
+    123567890: 1,
+    987654321: .5,
+    123456789: 1,
 }
 
 # ignores all messages from user
 
 ignore_users = {
-    1438574421987168358,
+    1234567890,
 }
 
 link_busy = 0.6
